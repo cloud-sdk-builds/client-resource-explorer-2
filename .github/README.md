@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-resource-explorer-2`](https://www.npmjs.com/package/@aws-sdk/client-resource-explorer-2/v/3.292.0).
+[`@aws-sdk/client-resource-explorer-2`](https://www.npmjs.com/package/@aws-sdk/client-resource-explorer-2/v/3.293.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-explorer-2@3.292.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-explorer-2@3.293.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ib4h4+6cB77dy04KqaDgQQtyipAK+cTFl5jmVnDn1LhKExeJu0MSqgc03+oYy1Dl
+sha384-AsrCNNG8tRwj6cTitWDP7zAuMg6PRr+WvJO2Lg4FQey6REk59nOKFFQk85SwYTkv
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-resource-explorer-2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-explorer-2@3.292.0/index.min.mjs"
+            "@aws-sdk/client-resource-explorer-2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-explorer-2@3.293.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-explorer-2@3.292.0/index.min.mjs": "sha384-ib4h4+6cB77dy04KqaDgQQtyipAK+cTFl5jmVnDn1LhKExeJu0MSqgc03+oYy1Dl"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-explorer-2@3.293.0/index.min.mjs": "sha384-AsrCNNG8tRwj6cTitWDP7zAuMg6PRr+WvJO2Lg4FQey6REk59nOKFFQk85SwYTkv"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-resource-explorer-2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-explorer-2@3.292.0/index.min.mjs"
+                        "@aws-sdk/client-resource-explorer-2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-explorer-2@3.293.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-explorer-2@3.292.0/index.min.mjs": "sha384-ib4h4+6cB77dy04KqaDgQQtyipAK+cTFl5jmVnDn1LhKExeJu0MSqgc03+oYy1Dl"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resource-explorer-2@3.293.0/index.min.mjs": "sha384-AsrCNNG8tRwj6cTitWDP7zAuMg6PRr+WvJO2Lg4FQey6REk59nOKFFQk85SwYTkv"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.292.0`)
+* Always pin to a specific version (`@3.293.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-resource-explorer-2/blob/refs/tags/3.292.0/LICENSE
+https://github.com/cloud-sdk-builds/client-resource-explorer-2/blob/refs/tags/3.293.0/LICENSE
 ```
 
 ---
